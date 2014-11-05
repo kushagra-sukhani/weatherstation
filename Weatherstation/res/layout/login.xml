@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="251dp"
+        android:layout_height="55dp"
+        android:padding="5dp"
+        android:text="LOGIN" />
+
+    <EditText
+        android:padding="25dp"
+        android:id="@+id/t_login"
+        
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:hint="USERNAME" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/t_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
+   <Button
+        android:id="@+id/but"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:text="SUBMIT" />
+
+</LinearLayout>
